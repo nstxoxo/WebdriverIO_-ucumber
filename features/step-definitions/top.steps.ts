@@ -1,7 +1,7 @@
 import { When, Then } from "@wdio/cucumber-framework";
 import { getWebElement } from "../../helpers/helpers";
-import { MainPage } from "../PageObjects/MainPage";
-import { ResultPage } from "../PageObjects/ResultPage";
+import { MainPage } from "../pages/MainPage";
+import { ResultPage } from "../pages/ResultPage";
 import {  topTitle } from "../../constans/strings";
 
 When(/^I click on the link "Фильмы"$/, async () => {

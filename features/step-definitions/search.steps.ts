@@ -1,7 +1,7 @@
 import { When, Then } from "@wdio/cucumber-framework";
 import { getWebElement } from "../../helpers/helpers";
-import { MainPage } from "../PageObjects/MainPage";
-import { ResultPage } from "../PageObjects/ResultPage";
+import { MainPage } from "../pages/MainPage";
+import { ResultPage } from "../pages/ResultPage";
 import { greenBook } from "../../constans/strings";
 
 When(/^I enter "Зеленая книга" in input field$/, async () => {

@@ -1,4 +1,4 @@
-Feature: Kinopoisk testing
+Feature: Kinopoisk.ru
 
   Background:
     Given I'm on the main page
