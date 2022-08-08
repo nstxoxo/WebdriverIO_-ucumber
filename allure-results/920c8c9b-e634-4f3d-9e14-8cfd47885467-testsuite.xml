@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659968546477' stop='1659968557197'>
+    <name>Kinopoisk.ru: Check login input</name>
+    <title>Kinopoisk.ru: Check login input</title>
+    <test-cases>
+        <test-case start='1659968546477' status='passed' stop='1659968546479'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968546479' status='passed' stop='1659968547156'>
+            <name>Given I'm on the main page</name>
+            <title>Given I'm on the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968547156' status='broken' stop='1659968557193'>
+            <name>When I click on the login button</name>
+            <title>When I click on the login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: element ("button[class="styles_loginButton__LWZQp"]") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("button[class="styles_loginButton__LWZQp"]") still not existing after 10000ms
+                    at D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async getWebElement (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\helpers\helpers.ts:3:3)
+                    at async World.&lt;anonymous> (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\features\step-definitions\login.steps.ts:8:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659968557193' status='pending' stop='1659968557194'>
+            <name>Then I should see the login input field</name>
+            <title>Then I should see the login input field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968557194' status='passed' stop='1659968557196'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

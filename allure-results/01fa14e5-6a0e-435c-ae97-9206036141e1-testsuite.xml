@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659968557208' stop='1659968567413'>
+    <name>Kinopoisk.ru: Check input field</name>
+    <title>Kinopoisk.ru: Check input field</title>
+    <test-cases>
+        <test-case start='1659968557208' status='passed' stop='1659968557209'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968557209' status='passed' stop='1659968557392'>
+            <name>Given I'm on the main page</name>
+            <title>Given I'm on the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968557392' status='broken' stop='1659968567410'>
+            <name>When I enter "Зеленая книга" in input field</name>
+            <title>When I enter "Зеленая книга" in input field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: element ("input[name="kp_query"]") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("input[name="kp_query"]") still not existing after 10000ms
+                    at D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async getWebElement (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\helpers\helpers.ts:3:3)
+                    at async World.&lt;anonymous> (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\features\step-definitions\search.steps.ts:8:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659968567410' status='pending' stop='1659968567411'>
+            <name>When I click on the link</name>
+            <title>When I click on the link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968567411' status='pending' stop='1659968567412'>
+            <name>Then I should see the image "Зеленая книга"</name>
+            <title>Then I should see the image "Зеленая книга"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968567412' status='passed' stop='1659968567412'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

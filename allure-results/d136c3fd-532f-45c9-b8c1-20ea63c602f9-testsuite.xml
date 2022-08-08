@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659968577667' stop='1659968589589'>
+    <name>Kinopoisk.ru: Check the subscription link</name>
+    <title>Kinopoisk.ru: Check the subscription link</title>
+    <test-cases>
+        <test-case start='1659968577667' status='passed' stop='1659968577667'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968577667' status='passed' stop='1659968578687'>
+            <name>Given I'm on the main page</name>
+            <title>Given I'm on the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968578688' status='broken' stop='1659968589587'>
+            <name>When I click on the button "Попробовать плюс"</name>
+            <title>When I click on the button "Попробовать плюс"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call elementClick on element with selector "a.styles_root__OkfMY" because element wasn't found</message>
+                <stack-trace>Error: Can't call elementClick on element with selector "a.styles_root__OkfMY" because element wasn't found
+                    at implicitWait (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\utils\refetchElement.js:29:16
+                    at async Element.elementErrorHandlerCallbackFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\middlewares.js:41:37)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async World.&lt;anonymous> (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\features\step-definitions\subscription.steps.ts:7:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659968589588' status='pending' stop='1659968589588'>
+            <name>Then I should see that the button "Оформить подписку" is enabled</name>
+            <title>Then I should see that the button "Оформить подписку" is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968589588' status='passed' stop='1659968589589'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

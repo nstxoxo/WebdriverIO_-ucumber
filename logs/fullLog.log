@@ -1,0 +1,18 @@
+08/08/2022] [17:43:49] [DEBUG] - I should see the ${ResultPage.loginInput}
+08/08/2022] [17:43:49] [ERROR] - I should see the ${ResultPage.loginInput}
+08/08/2022] [17:53:47] [DEBUG] - I should see the ${ResultPage.loginInput}
+08/08/2022] [17:53:47] [ERROR] - I should see the ${ResultPage.loginInput}
+08/08/2022] [17:53:48] [DEBUG] - I enter ${greenBook} in input field
+08/08/2022] [17:53:48] [ERROR] - I enter ${greenBook} in input field
+08/08/2022] [17:53:48] [DEBUG] - I click on the ${MainPage.searchButton}
+08/08/2022] [17:53:48] [ERROR] - I click on the ${MainPage.searchButton}
+08/08/2022] [17:53:50] [DEBUG] - I should see the image ${ResultPage.searchResult}
+08/08/2022] [17:53:50] [ERROR] - I should see the image ${ResultPage.searchResult}
+08/08/2022] [17:53:50] [DEBUG] - I click on the link ${MainPage.films}
+08/08/2022] [17:53:50] [ERROR] - I click on the link ${MainPage.films}
+08/08/2022] [17:53:52] [DEBUG] - I click on the link ${ResultPage.filmsTop}
+08/08/2022] [17:53:52] [ERROR] - I click on the link ${ResultPage.filmsTop}
+08/08/2022] [17:53:52] [DEBUG] - I should see the title ${ResultPage.topTitle}
+08/08/2022] [17:53:52] [ERROR] - I should see the title ${ResultPage.topTitle}
+08/08/2022] [17:53:54] [DEBUG] - I should see that the button ${ResultPage.subscriptionButton} is enabled
+08/08/2022] [17:53:54] [ERROR] - I should see that the button ${ResultPage.subscriptionButton} is enabled

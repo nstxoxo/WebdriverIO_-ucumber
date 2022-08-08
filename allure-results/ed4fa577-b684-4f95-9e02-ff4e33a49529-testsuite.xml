@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659968567420' stop='1659968577662'>
+    <name>Kinopoisk.ru: Check top 500 films</name>
+    <title>Kinopoisk.ru: Check top 500 films</title>
+    <test-cases>
+        <test-case start='1659968567420' status='passed' stop='1659968567421'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968567421' status='passed' stop='1659968567635'>
+            <name>Given I'm on the main page</name>
+            <title>Given I'm on the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968567635' status='broken' stop='1659968577661'>
+            <name>When I click on the link "Фильмы"</name>
+            <title>When I click on the link "Фильмы"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[class=styles_sticky__mDnbt] a[href*="movies/1"]") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("[class=styles_sticky__mDnbt] a[href*="movies/1"]") still not existing after 10000ms
+                    at D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async getWebElement (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\helpers\helpers.ts:3:3)
+                    at async World.&lt;anonymous> (D:\anastasia_mardovich QA_JS_01\WebdriverIO_Cucumber\features\step-definitions\top.steps.ts:8:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659968577662' status='pending' stop='1659968577662'>
+            <name>When I click on the link "500 лучших фильмов"</name>
+            <title>When I click on the link "500 лучших фильмов"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968577662' status='pending' stop='1659968577662'>
+            <name>Then I should see the title "500 лучших фильмов"</name>
+            <title>Then I should see the title "500 лучших фильмов"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659968577662' status='passed' stop='1659968577662'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
